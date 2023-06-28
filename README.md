@@ -9,7 +9,7 @@ when the function is public, and with a lower case letter when the method can be
 
 i found that interesting that's why i'm writing this down
 
-## variable and const
+## variable and constants
 
 you can use the short := to declare a variable, making use of the type inference provided by go
 on the other hand, you cannot do this when declaring a constant
