@@ -2,7 +2,7 @@
 
 ## general commands
 
-go mod tidy is used to remove unused dependencies from the go.mod file
+```go mod tidy``` is used to remove unused dependencies from the go.mod file
 
 ## access modifiers
 
