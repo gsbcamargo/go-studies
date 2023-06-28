@@ -1,5 +1,9 @@
 # Go annotations
 
+## general commands
+
+go mod tidy is used to remove unused dependencies from the go.mod file
+
 ## access modifiers
 
 so, apparently Go doesn't have access modifiers because it isn't an object oriented programming language
