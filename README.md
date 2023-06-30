@@ -2,7 +2,7 @@
 
 ## general commands
 
-```go mod tidy``` is used to remove unused dependencies from the go.mod file
+`go mod tidy` is used to remove unused dependencies from the go.mod file
 
 ## access modifiers
 
@@ -20,3 +20,8 @@ on the other hand, you cannot do this when declaring a constant
 when doing so, you must declare it explicitly, eg.:
 
 const Constant string = "i'm a constant"
+
+## string interpolation
+
+using string interpolation is go is pretty straight forward
+just write it like this `fmt.Printf("%s", string)` (take a closer look at the docs [here](https://pkg.go.dev/fmt#hdr-Printing).)

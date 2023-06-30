@@ -16,6 +16,10 @@ func main() {
 
 	const constant string = "constant"
 
+	anotherString := "Stringz"
+
+	anotherNumber := 103
+
 	correct := checkmail.ValidateFormat("gabriel@gabriel.dev") // if correct returns nil
 	wrongFormat := checkmail.ValidateFormat("1234")
 	printedVariable := fmt.Sprintf("I'm a variable! Look: %s.", variable) // string interpolation
@@ -24,4 +28,6 @@ func main() {
 	fmt.Println(printedConstant)
 	fmt.Println(correct)
 	fmt.Println(wrongFormat)
+	fmt.Printf("%s\n", anotherString)
+	fmt.Printf("%d", anotherNumber)
 }
