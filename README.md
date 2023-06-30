@@ -23,5 +23,5 @@ const Constant string = "i'm a constant"
 
 ## string interpolation
 
-using string interpolation is go is pretty straight forward
+using string interpolation in go is pretty straight forward
 just write it like this `fmt.Printf("%s", string)` (take a closer look at the docs [here](https://pkg.go.dev/fmt#hdr-Printing).)
